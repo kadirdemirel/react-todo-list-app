@@ -1,0 +1,42 @@
+.App {
+  width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ekleme_formu input,
+.ekleme_formu button,
+.temizle {
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+}
+
+.ekleme_formu input {
+  background: #e1e1e2;
+}
+
+.ekleme_formu button,
+.temizle {
+  background: #333;
+  color: white;
+}
+
+.liste {
+  padding: 20px 0;
+}
+
+.liste > div {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.liste > div:last-child {
+  border-bottom: 0;
+}
+
+.yapildi {
+  text-decoration: line-through;
+}
